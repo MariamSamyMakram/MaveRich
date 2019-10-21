@@ -1,0 +1,69 @@
+.video{padding-bottom: 100px;}
+.video .col-lg-8{padding: 80px 0 0;}
+.video h1{  font-size: 65px;font-weight: bold;z-index: 1;}
+.video .square{
+    width: 56%;
+    height: 142px;
+    border: 4px solid #f3f3f3;
+    position: absolute;
+    bottom: -30px;
+    left: 97px;
+    z-index: -1;
+}
+
+@media (max-width: 575.98px){
+    .video{padding-bottom: 50px;}
+    .video .col-lg-8{     padding: 24px 24px 0; height: 373px;   }
+    .video h1 {
+        font-size: 36px;
+        width: 69%;
+    }
+    .video .square {
+        width: 76%;
+        height: 276px;
+        bottom: 46px;
+        left: 43px;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .video{padding-bottom: 0px;}
+    .video .col-lg-8{     padding: 24px 24px 0; height: 373px;   }
+    .video h1 {
+        font-size: 28px;
+    }
+    .video .square {
+        width: 67%;
+        height: 160px;
+        bottom: 167px;
+        left: 51px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .video{padding-bottom: 0px;}
+    .video .col-lg-8{     padding: 24px 24px 0; height: 373px;   }
+    .video h1 {
+        font-size: 50px;
+    }
+    .video .square {
+        width: 68%;
+        height: 171px;
+        bottom: 140px;
+        left: 68px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .video{padding-bottom: 50px;}
+    .video h1 {font-size: 60px;}
+    .video .square {
+        width: 73%;
+        left: 40px;
+        bottom: -9px;
+    }
+}

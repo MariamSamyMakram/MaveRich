@@ -1,0 +1,81 @@
+.ux{padding-bottom: 100px;}
+.ux .col-lg-8{padding: 80px 0 0;}
+.ux h1{  font-size: 65px;font-weight: bold;z-index: 1;}
+.ux .right{    text-align: end;z-index: 1;}
+.ux .square{
+    width: 56%;
+    height: 142px;
+    border: 4px solid #f3f3f3;
+    position: absolute;
+    bottom: -7px;
+    left: 97px;
+    z-index: -1;
+
+}
+.ux .right .square{
+    left: 204px;
+}
+
+
+@media (max-width: 575.98px){
+    .ux .col-lg-8{     padding: 24px 24px 0; height: 373px;   }
+    .ux h1 {
+        font-size: 36px;
+        width: 69%;
+    }
+    .ux .square {
+        width: 76%;
+        height: 276px;
+        bottom: 46px;
+        left: 43px;
+    }
+    .ux .right {text-align: left;}    
+    .ux .right .square {left: 46px; }
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .ux{padding-bottom: 0px;}
+    .ux .col-lg-8{     padding: 24px 24px 0; height: 373px;   }
+    .ux h1 {
+        font-size: 28px;
+    }
+    .ux .square {
+        width: 67%;
+        height: 160px;
+        bottom: 167px;
+        left: 51px;
+    }
+    .ux .right {text-align: left;}    
+    .ux .right .square {    left: 47px;    }
+ 
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .ux .col-lg-8{     padding: 24px 24px 0; height: 373px;   }
+    .ux h1 {
+        font-size: 50px;
+    }
+    .ux .square {
+        width: 68%;
+        height: 171px;
+        bottom: 140px;
+        left: 68px;
+    }
+    .ux .right {text-align: left;}    
+    .ux .right .square {    left: 47px;    }
+   
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .ux{padding-bottom: 50px;}
+    .ux h1 {font-size: 60px;}
+    .ux .square {
+        width: 73%;
+        left: 67px;
+    }
+    .ux .right .square {left: 126px;}
+}
