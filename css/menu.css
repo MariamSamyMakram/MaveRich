@@ -39,20 +39,42 @@
     border-bottom-left-radius: 82px;
     border-bottom-right-radius: 82px;
     border: none;
-    position: absolute;
-    left: 58%;
+    position: fixed;
+    top: 0;
+    left: 50%;
     margin-bottom: 10px;
     text-align: center;
     cursor: pointer;
+    z-index: 3;
 }
 
   
 #main {
     transition: margin-left .5s;
   }
-  
-  @media screen and (max-height: 450px) {
+    
+
+  @media (max-width: 575.98px){
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    .circle {
+      width: 63px;
+      height: 37px;
+      left: 45%;
+    }
   }
   
+  /* Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+   
+  }
+  
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) and (max-width: 991.98px) {
+     
+  }
+  
+  /*Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+     
+  }
