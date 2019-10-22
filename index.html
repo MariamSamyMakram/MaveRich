@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="css/regular.css">   
         <link rel="stylesheet" href="css/brands.css">
         <link rel="stylesheet" href="css/solid.css">  
+        <!-- wow js -->
+        <link rel="stylesheet" href="css/animate.min.css">
         <!--styles for page-->   
         <link rel="stylesheet" href="css/menu.css">
         <link rel="stylesheet" href="css/creativity.css">
@@ -47,16 +49,16 @@
                 <div class="creativity">
                    <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-3 col-sm-3  part1">
+                            <div class="col-lg-3 col-sm-3  part1 ">
                                 <div class="row">
-                                    <div class="col-lg-9 col-sm-9 line"></div>
+                                    <div class="col-lg-9 col-sm-9 line wow"></div>
                                     <div class="col-lg-3 col-sm-3 "><p>Creativity</p></div>
                                 </div>
                             </div>
-                            <div class="col-lg-9 col-sm-9  part2">
+                            <div class="col-lg-9 col-sm-9  part2 wow slideInUp">
                                 <h1 class="text-center">bo<u>o</u>tique</h1>
                                 <p>The oldest classical Greek and Latin writing had little or no space between words and could be written in boustrophedon (alternating directions). Over time, text direction (left to right) became standardized, and word dividers and terminal punctuation became common.</p>
-                                <a href="#"class="far fa-arrow-alt-circle-down"></a>
+                                <a href="#ux"class="far fa-arrow-alt-circle-down"></a>
                             </div>
                         </div>
                    </div>
@@ -66,7 +68,7 @@
                 <div class="ux" id="ux">
                     <div class="container">
                        <div class="row">
-                            <div class="col-lg-8">
+                            <div class="col-lg-8 wow slideInUp">
                                 <h1>Creativte e UX Design</h1>
                                 <p>A UX designer is concerned with the entire process of acquiring and integrating a product, 
                                     including aspects of branding, design, usability and function.
@@ -76,8 +78,8 @@
                             </div>
                        </div>
                        <div class="row">
-                           <div class="col-lg-4"></div>
-                           <div class="col-lg-8 right left">
+                           <div class="col-lg-4 "></div>
+                           <div class="col-lg-8 right wow slideInUp">
                                 <h1>Content Marketing</h1>
                                 <p>A UX designer is concerned with the entire process of acquiring and integrating a product, 
                                     including aspects of branding, design, usability and function.
@@ -93,11 +95,11 @@
                 <div class="images1">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-7 col-sm-6">
-                                <img class="imageLeft" src="images/image1.jpg" alt="image1">
+                            <div class="col-lg-7 col-sm-6 ">
+                                <img class="imageLeft wow zoomInUp" src="images/image1.jpg" alt="image1">
                             </div>
                             <div class="col-lg-5 col-sm-6">
-                                <img class="imageRight" src="images/image2.jpg" alt="image2">
+                                <img class="imageRight wow zoomInUp" src="images/image2.jpg" alt="image2">
                             </div>
                         </div>
                     </div>
@@ -107,7 +109,7 @@
                 <div class="ux">
                     <div class="container">
                              <div class="row">
-                                     <div class="col-lg-8">
+                                     <div class="col-lg-8 wow fadeInUp">
                                         <h1>Social Media</h1>
                                         <p>A UX designer is concerned with the entire process of acquiring and integrating a product, 
                                              including aspects of branding, design, usability and function.
@@ -118,7 +120,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-lg-4"></div>
-                                <div class="col-lg-8 right left">
+                                <div class="col-lg-8 right left wow fadeInUp">
                                     <h1>Digital PR</h1>
                                     <p>A UX designer is concerned with the entire process of acquiring and integrating a product, 
                                              including aspects of branding, design, usability and function.
@@ -134,11 +136,11 @@
                 <div class="images2">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-5 col-sm-6">
-                                <img class="imageLeft" src="images/image3.jpg" alt="image1">
+                            <div class="col-lg-5 col-sm-6 ">
+                                <img class="imageLeft wow slideInLeft" src="images/image3.jpg" alt="image1">
                             </div>
                             <div class="col-lg-7 col-sm-6">
-                                <img class="imageRight" src="images/image4.jpg" alt="image2">
+                                <img class="imageRight wow slideInRight" src="images/image4.jpg" alt="image2">
                             </div>
                         </div>
                         </div>
@@ -147,7 +149,7 @@
                 <!-- video -->
                 <div class="video">
                     <div class="container">
-                        <div class="col-lg-8">
+                        <div class="col-lg-8 wow slideInUp">
                             <h1>Video</h1>
                             <p>A UX designer is concerned with the entire process of acquiring and integrating a product, 
                             including aspects of branding, design, usability and function.
@@ -170,7 +172,11 @@
 
         <!--jquery-->
         <script src="js/jquery-3.4.1.min.js"></script>
-
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
         <!--menu-->
         <script src="js/menu.js"></script>
     </body>
