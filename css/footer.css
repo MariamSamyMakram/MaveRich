@@ -23,7 +23,7 @@
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    .footer h1{    font-size: 50px;}
+    .footer h1{    font-size: 49px;}
 }
 
 /* Medium devices (tablets, 768px and up)*/

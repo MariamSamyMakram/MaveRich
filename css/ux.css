@@ -1,6 +1,6 @@
 .ux{padding-bottom: 100px;}
 .ux .col-lg-8{padding: 80px 0 0;}
-.ux h1{  font-size: 58px;font-weight: bold;z-index: 1;}
+.ux h1{  font-size: 70px;font-weight: bold;z-index: 1;}
 .ux .right{    
     text-align: 
     end;z-index: 1;
@@ -13,13 +13,13 @@
     height: 142px;
     border: 4px solid #f3f3f3;
     position: absolute;
-    bottom: 8px;
-    left: 75px;
+    bottom: -17px;
+    left: 82px;
     z-index: -1;
 
 }
 .ux .right .square{
-    left: 143px;
+    left: 173px;
 }
 
 
