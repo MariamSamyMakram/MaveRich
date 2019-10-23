@@ -12,10 +12,8 @@
     padding-left: 45px;
     padding-right: 45px;
 
-    transition-property: background-color;
-    transition-property: border-color;
-    transition-property: color;
-    transition-duration: 1s;
+    transition-property: background-color,border-color,color;
+    transition-duration: 1s ,0.2s ,0.2s;
     transition-timing-function: linear;
 }
 .footer button:hover {
