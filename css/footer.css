@@ -13,11 +13,14 @@
     padding-right: 45px;
 }
 .btn:hover {
-    color: #f3d546;
-    font-weight: bold;
-    background-color: transparent;
-    border-color: #f3d546;
-    border: 2px solid;
+    -webkit-animation-name: btnButton;
+    -webkit-animation-delay: 2s;
+    animation-name: btnButton;
+    animation-delay: 2s;
+}
+@keyframes btnButton{
+    from{background-color :transparent;}
+    to{background-color: #f3d546;}
 }
 
 @media (max-width: 575.98px){
