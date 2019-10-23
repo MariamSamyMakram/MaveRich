@@ -11,16 +11,17 @@
     border: 2px solid;
     padding-left: 45px;
     padding-right: 45px;
+
+    transition-property: background-color;
+    transition-property: border-color;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }
-.btn:hover {
-    -webkit-animation-name: btnButton;
-    -webkit-animation-delay: 2s;
-    animation-name: btnButton;
-    animation-delay: 2s;
-}
-@keyframes btnButton{
-    from{background-color :transparent;}
-    to{background-color: #f3d546;}
+.footer button:hover {
+    background-color: #f3d546;
+    border-color: #f3d546;
+    color: #fff;
 }
 
 @media (max-width: 575.98px){
